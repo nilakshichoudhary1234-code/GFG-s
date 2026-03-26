@@ -1,0 +1,13 @@
+class Solution {
+  public:
+    void inputData() {
+        int a;
+        string b;
+        cin>>a;
+        cin>>b;
+    
+        cout<<a<<" "<<b<<'\n';
+        
+        
+    }
+};
