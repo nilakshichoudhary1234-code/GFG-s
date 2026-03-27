@@ -1,12 +1,19 @@
-// User function Template for C++
+#include <iostream>
+using namespace std;
 
-void utility(int number) {
-    // Write your if statement below
-    if(number>100){
-        cout<<"Big" <<'\n';
+int main() {
+    int n;
+    // Read the input number
+    cin >> n;
+
+    // Check if the number is greater than 100
+    if (n > 100) {
+        cout << "Big" << endl;
     }
 
-    // Write your if statement above
+    // This part runs regardless of the condition above
     cout << "Number" << endl;
     
+
+    return 0;
 }
