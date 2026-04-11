@@ -1,10 +1,17 @@
-string utility(int n) {
-    // If n is odd, you pick the last apple
-    if (n % 2 != 0) {
-        return "You";
-    } 
-    // If n is even, your friend picks the last apple
-    else {
-        return "Friend";
+#include <iostream>
+using namespace std;
+
+int main() {
+    // code here
+    int n;
+    cin>>n;
+    if(n%2==0){
+        cout<<"Friend"<<'\n';
     }
+    else{
+        cout<<"You"<<'\n';
+    }
+    
+
+    return 0;
 }
