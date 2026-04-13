@@ -1,15 +1,11 @@
-#include <iostream>
-using namespace std;
-
-int main() {
-    int x;
-    cin >> x;
-    while(x>=0){
-        cout<<x<<" ";
-        x--;
+class Solution {
+  public:
+    void utility(int x) {
+        
+        for( int i=x;i>=0 ; i--){
+            cout<< i <<" ";
+        }
+      
+        
     }
-    // use while loop over x
-    // to print integers from x to 0
-
-    return 0;
-}
+};
