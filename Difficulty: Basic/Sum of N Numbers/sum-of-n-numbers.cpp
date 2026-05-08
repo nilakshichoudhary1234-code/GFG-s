@@ -1,7 +1,4 @@
 int nSum(int n) {
-    int ans = 0;
-    for (int i = 1; i <= n; i++) {
-        ans += i;
-    }
-    return ans;
+    // Using long long is safer if n is large to prevent overflow
+    return (n * (n + 1)) / 2;
 }
