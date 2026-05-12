@@ -1,42 +1,37 @@
-// User function Template for C++
+#include <iostream>
+#include <string>
+using namespace std;
 
-string utility(int number) {
-    
-    switch(number){
+string findName(int n) {
+    // Use switch statement to check values 1-9
+    switch(n) {
         case 1:
-        return "One ";
-        
-       
+            return "One";
         case 2:
-        return "Two";
-        
+            return "Two";
         case 3:
-        return "Three";
-       
+            return "Three";
         case 4:
-        return "Four";
-        
+            return "Four";
         case 5:
-        return "Five";
-        
+            return "Five";
         case 6:
-        return "Six";
-        
-        
+            return "Six";
         case 7:
-        return "Seven";
-        
+            return "Seven";
         case 8:
-        return "Eight";
-        
+            return "Eight";
         case 9:
-        return "Nine";
-        
-         default :
-         return "Unknown";
-        
-        
+            return "Nine";
+        default:
+            return "Unknown";
     }
-   
-    
+}
+
+int main() {
+    int n;
+    if (cin >> n) {
+        cout << findName(n) << endl;
+    }
+    return 0;
 }
