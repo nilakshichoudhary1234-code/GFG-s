@@ -1,7 +1,12 @@
-class Solution {
-  public:
-    int calculate(int a, int b, int c, int d) {
-        // Code here
-        return (((a+b)/c)+d);
-    }
-};
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
+    
+    // Single statement expression evaluating the formula
+    cout << (a + b) / c + d;
+    
+    return 0;
+}
