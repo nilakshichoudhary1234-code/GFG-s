@@ -1,7 +1,9 @@
-class Solution {
-  public:
-    void printHello() {
-        cout<<"Hello World"<<'\n';
-        
-    }
-};
+#include <iostream>
+using namespace std;
+
+int main() {
+    // code here
+    cout<<"Hello World";
+
+    return 0;
+}
